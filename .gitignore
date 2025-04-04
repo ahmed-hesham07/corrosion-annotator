@@ -1,3 +1,4 @@
-Datasets/ 
-__pycache__/ 
-*.pyc 
+# Ignore large dataset files if necessary
+Datasets/
+__pycache__/
+*.pyc
