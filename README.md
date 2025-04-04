@@ -11,7 +11,7 @@ C:\Users\Ahmed Hesham/
 └── corrosion-annotator/
     ├── .gitignore
     ├── Datasets/
-    │   ├── Datasets Extractor.exe
+    │   ├── Datasets.part01.exe
     │   ├── Datasets.part02.rar
     │   ├── Datasets.part03.rar
     │   ├── Datasets.part04.rar
@@ -27,14 +27,58 @@ C:\Users\Ahmed Hesham/
     │   ├── Datasets.part14.rar
     │   ├── Datasets.part15.rar
     │   ├── Datasets.part16.rar
-    │   └── Datasets.part17.rar
+    │   ├── Datasets.part17.rar
+    │   ├── Datasets.part18.rar
+    │   ├── Datasets.part19.rar
+    │   ├── Datasets.part20.rar
+    │   ├── Datasets.part21.rar
+    │   ├── Datasets.part22.rar
+    │   ├── Datasets.part23.rar
+    │   ├── Datasets.part24.rar
+    │   ├── Datasets.part25.rar
+    │   ├── Datasets.part26.rar
+    │   ├── Datasets.part27.rar
+    │   ├── Datasets.part28.rar
+    │   ├── Datasets.part29.rar
+    │   ├── Datasets.part30.rar
+    │   ├── Datasets.part31.rar
+    │   ├── Datasets.part32.rar
+    │   ├── Datasets.part33.rar
+    │   ├── Datasets.part34.rar
+    │   ├── Datasets.part35.rar
+    │   ├── Datasets.part36.rar
+    │   ├── Datasets.part37.rar
+    │   ├── Datasets.part38.rar
+    │   ├── Datasets.part39.rar
+    │   ├── Datasets.part40.rar
+    │   ├── Datasets.part41.rar
+    │   ├── Datasets.part42.rar
+    │   ├── Datasets.part43.rar
+    │   ├── Datasets.part44.rar
+    │   ├── Datasets.part45.rar
+    │   ├── Datasets.part46.rar
+    │   ├── Datasets.part47.rar
+    │   ├── Datasets.part48.rar
+    │   ├── Datasets.part49.rar
+    │   ├── Datasets.part50.rar
+    │   ├── Datasets.part51.rar
+    │   ├── Datasets.part52.rar
+    │   ├── Datasets.part53.rar
+    │   ├── Datasets.part54.rar
+    │   ├── Datasets.part55.rar
+    │   ├── Datasets.part56.rar
+    │   ├── Datasets.part57.rar
+    │   ├── Datasets.part58.rar
+    │   ├── Datasets.part59.rar
+    │   ├── Datasets.part60.rar
+    │   └── Datasets.part61.rar
     ├── main.py
     ├── README.md
     ├── requirements.txt
     ├── src/
-    │   └── __pycache__/
-    │       ├── __init__.cpython-310.pyc
-    │       └── corrosion_annotation.cpython-310.pyc
+    │   ├── __init__.py
+    │   └── corrosion_annotation.py
+    ├── structure.txt
     └── train_model.py
 ```
 
@@ -87,7 +131,7 @@ Semantic segmentation model that classifies corrosion severity into four classes
 To extract the datasets for the three projects, **you must run the dataset extractor tool**:
 
 ```bash
-Run: Datasets/Datasets Extractor.exe
+Run: Datasets/Datasets.part01.exe
 ```
 
 This will unpack the required high-resolution annotated corrosion images into the proper directories for training and evaluation.
